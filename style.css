@@ -1,0 +1,117 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html { 
+   font-size: 62.5%;
+}
+
+body {
+   background-color: rgb(163, 196, 196);
+   font-family: 'Rubik', sans-serif;
+   font-size: 1.5rem;
+}
+
+/* =================================== */
+/* Styles */
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+/* ====================== */
+/* Header card */
+.card {
+   background-color: white;
+   width: 375px;
+   border-radius: 5px;
+   box-shadow: 1px 1px 10px #444;
+   overflow: hidden;
+}
+
+.card-header {
+   width: 100%;
+}
+
+/* ====================== */
+/* Body card */
+.card-body {
+   display: flex;
+   flex-direction: column;
+   padding: 1rem 3rem 5rem 2rem;
+   line-height: 1.5;
+}
+
+.new-coat {
+   background-color: #2d456f;
+   color: white;
+   padding: .5rem;
+   font-size: 1.2rem;
+   text-transform: uppercase;
+   margin-top: -60px;
+   margin-bottom: 40px;
+   width: 80px;
+   text-align: center;
+}
+
+.body-coat {
+   text-transform: uppercase;
+   color: #777;
+   padding-bottom: 10px;
+} 
+
+.coat-title {
+   padding-bottom: 1rem;
+   font-size: 3rem;
+}
+
+.coat-info {
+   color: #333;
+}
+/* ====================== */
+/* Footer card */
+.card-footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 2rem 3rem 2rem 2rem;
+   border-top: solid 2px rgba(0, 0, 0, 0.05);
+   text-transform: uppercase;
+   font-weight: 500;
+   color: #777;
+}
+
+.card-footer p:hover {
+   color: red;
+   cursor: pointer;
+   transition: .3s;
+}
+
+.card-footer p:active {
+   transform: scale(1.1);
+}
+
+.footer-cart {
+   padding: .8rem;
+   background-color: rgba(24, 192, 66, 0.918);
+   color: white;
+   font-family: 'Rubik', sans-serif;
+   text-transform: uppercase;
+   font-weight: 400;
+   border: none;
+   transition: .3s;
+}
+
+.footer-cart:hover {
+   background-color: rgba(15, 151, 49, 0.918);
+   cursor: pointer;
+}
+
+.footer-cart:active {
+   transform: scale(1.1);
+}
+
