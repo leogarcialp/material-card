@@ -28,6 +28,7 @@ body {
 .card {
    background-color: white;
    width: 375px;
+   min-width: 375px;
    border-radius: 5px;
    box-shadow: 1px 1px 10px #444;
    overflow: hidden;
